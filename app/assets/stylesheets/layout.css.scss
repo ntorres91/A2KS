@@ -10,6 +10,11 @@ body {
 .activityfeed, .updateuser {
   @include outer-container;
 }
+
+ .addvideo {
+   @include outer-container;
+}
+
 div.container {
   @include outer-container;
 }
