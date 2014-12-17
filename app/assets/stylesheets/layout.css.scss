@@ -7,6 +7,9 @@ body {
   overflow-x: hidden;
 }
 
+.activityfeed, .updateuser {
+  @include outer-container;
+}
 div.container {
   @include outer-container;
 }

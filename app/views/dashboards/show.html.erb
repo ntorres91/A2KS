@@ -7,15 +7,17 @@
   </p>
 </div>
 
-<fieldset>
-  <p> Your Activity Feed </p>
-  <ul>
-    <%= render @activities %>
-  </ul>
+<fieldset class= "activityfeed">
+  <div>
+    <p> Your Activity Feed </p>
+    <ul>
+      <%= render @activities %>
+    </ul>
+  </div>
 </fieldset>
 
 
-<fieldset>
+<fieldset class= "updateuser">
   <%= form_for current_user do |form| %>
     <div>
       <%= form.text_area :bio_content %>
