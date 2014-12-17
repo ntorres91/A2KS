@@ -1,4 +1,6 @@
 class Video < ActiveRecord::Base
+  include Actionable
+
   acts_as_taggable
   has_attached_file(
     :media,
